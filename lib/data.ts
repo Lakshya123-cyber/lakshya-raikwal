@@ -1,8 +1,8 @@
 import { createElement } from "react";
 import { LuGraduationCap, LuSchool } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import img1 from "@/public/ecom.png";
+import img2 from "@/public/genius.png";
+import img3 from "@/public/messenger.png";
 
 export const links = [
   {
@@ -33,28 +33,28 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Ecommerce Admin Dashboard",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
-    link: "https://github.com/Lakshya123-cyber/Airbnb",
+      "This was my biggest project ever because I made an ecommerce admin dashboard including the ecommerce store.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Prisma"],
+    imageUrl: img1,
+    link: "https://ecommerce-admin-murex-six.vercel.app/",
   },
   {
-    title: "rmtDev",
+    title: "Genius AI",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-    link: "https://github.com/Lakshya123-cyber/ecommerce-admin",
+      "This AI is a 6 in 1. It can generate codes to music, anything you can ask for!",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
+    imageUrl: img2,
+    link: "https://genius-ai-silk.vercel.app/dashboard",
   },
   {
-    title: "Word Analytics",
+    title: "Messenger Clone",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-    link: "https://github.com/Lakshya123-cyber/genius-ai",
+      "This is a messenger clone which I made just to know more about NextAuth and chat system.",
+    tags: ["TypeScript", "Next.js", "Prisma", "Tailwind"],
+    imageUrl: img3,
+    link: "https://messenger-clone-zeta-orcin.vercel.app/",
   },
 ] as const;
 
@@ -64,7 +64,7 @@ export const blogsData = [
     description:
       "In this blog, I talk about what languages do I use on a daily basis.",
     tags: ["PROGRAMMING", "FRONT-END", "BACK-END"],
-    imageUrl: corpcommentImg,
+    imageUrl: img1,
     link: "https://github.com/Lakshya123-cyber/",
   },
   {
@@ -72,7 +72,7 @@ export const blogsData = [
     description:
       "In this blog, I describe where my workplace is and what accessories do I use.",
     tags: ["LAPTOPS", "ACCESSORIES", "SETUP"],
-    imageUrl: rmtdevImg,
+    imageUrl: img2,
     link: "https://github.com/Lakshya123-cyber/",
   },
 ] as const;
